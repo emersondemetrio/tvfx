@@ -1,0 +1,17 @@
+#div {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.row {
+    clear: both;
+}
+
+.item {
+    width: 20px;
+    height: 20px;
+    float: left;
+    transition: width 2s;
+    background-color: #424242;
+}
