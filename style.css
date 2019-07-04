@@ -1,17 +1,20 @@
-#div {
-    width: 55%;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.row {
-    clear: both;
-}
-
 .item {
-    width: 20px;
-    height: 20px;
-    float: left;
     transition: width 2s;
-    background-color: #424242;
+    fill: #424242;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
