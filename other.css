@@ -1,0 +1,30 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000; /* Background color to cover the whole area */
+}
+
+.rect {
+	fill: rgba(255, 255, 255, 1);
+	animation: noise 0.01s infinite;
+}
+
+@keyframes noise {
+	0% {
+		transform: translateY(0) translateX(0);
+	}
+	100% {
+		transform: translateY(100%) translateX(100%);
+	}
+}
